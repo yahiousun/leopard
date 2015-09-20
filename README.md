@@ -3,8 +3,8 @@ A javascript HTML5 media preloader
 
 ##Usage
 
-|| **Options** || **Type** || **Accept** ||
-|| type || String || auto Automatic detection type ||
+**Options** | **Type** | **Accept**
+type | String | auto Automatic detection type
 
     leopard( [
         '../images/001.jpg',
