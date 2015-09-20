@@ -7,18 +7,18 @@ A javascript HTML5 media preloader
 
 ##Options
 
-**type**
+###type###
 String, accept 'image', 'audio', 'video', 'auto', default value 'auto'.
 
-**onloadstart**
+###onloadstart###
 Function, onloadstart callback, return arguments ( that ),
 that: leopard instance.
 
-**onprogress**
+###onprogress###
 Function, onprogress callback, return arguments ( that ),
 that: leopard instance.
 
-**onerror**
+###onerror###
 Function, onerror callback, return arguments ( errorObject, that ),
 errorObject: error object,
 that: leopard instance.
@@ -29,7 +29,7 @@ that: leopard instance.
         msg: '' // error message
     }
 
-error codes
+**error codes**
 
     leopard.fail = {
         '0': 'Unkonwn error.',
@@ -37,10 +37,10 @@ error codes
         '2': 'Unsupported source mime type.'
     }
 
-**onload**
+###onload###
 Function, onload callback, all file load success, return arguments ( that ),
 that: leopard instance.
 
-**onloadend**
+###onloadend###
 Function, onloadend callback, no matter success or failure, return arguments ( that ),
 that: leopard instance.
