@@ -157,6 +157,9 @@
 		abort: function () {
 			var that = this;
 			that.aborted = true;
+			if ( that.timer ) {
+				clearTimeout( that.timer );
+			}
 		},
 		complete: function () {
 			var that = this;
